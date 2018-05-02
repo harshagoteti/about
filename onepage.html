@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <title>Srinivasa Sriharsha Goteti</title>
+  <meta name="description" content="Introduction and general Understanding  about Srinivasa Sriharsha Goteti ">
+  <meta name="author" content="Designed and Developed by Srinivasa Sriharsha Goteti">
+  <meta name="keywords" content="Srinivasa Sriharsha Goteti Software Engineer Web Developer" />
+  <meta property="og:site_name" content="Srinivasa Sriharsha Goteti. informationfo" />
+  <meta property="og:title" content="Srinivasa Sriharsha Goteti." />
+  <meta property="og:description" content="A clinical decision support company implementing NLP, AI and machine learning to build knowledge graph and inference engine" />
+  <meta property="og:image" content="http://www.wiseyak.com/images/wy_banner.jpg" />
+  <meta property="og:url" content="http://www.wiseyak.com/" />
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="css/fonts.css" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <script src="scripts/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+  <script src="scripts/site.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body class="code-snippets-visible">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <section class="header">
+      <img class="value-img" src="images/index.jpg" width=150; height="150">
+      <h2 class="title">Srinivasa Sriharsha Goteti </h2>
+      <h5 class= "subtitle"> Software Engineer/ Web Developer </h5>  
+      <div class="value-props row">
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/brain.png" height="100">
+          AI based clinical decision support at point of care.
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/interoperability.png" height="100">
+          Semantic interoperability and medical ontologies.
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/graphkb.png" height="100">
+          Graphical database as knowledge-base and information model.
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#tech">Technology</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#team">Team</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Why use Skeleton -->
+    <div class="docs-section" id="intro">
+      <h6 class="docs-header">What We Do?</h6>
+      <p>We build technologies that support Clinical Decision Support Systems (CDSS) based on patient record at the point of care. We use AI technology and up-to-date knowledgebase to provide suggestions on differential diagnosis, medication and treatment. We also help streamline clinical processes through mechanisms such as generating conditional order sets, patient-focused reports/forms/templates and contextually relevant reference information.</p>
+      <p>We build our technologies with <strong>interoperability</strong> and <strong>information exchange</strong> in mind. As such, our knowledgebase and implementations are fully based on semantic ontologies and clinical information models such as HL7 CDA and FHIR resources.</p>
+    </div>
+
+    <!-- Grid -->
+    <div class="docs-section" id="tech">
+      <h6 class="docs-header">Technology</h6>
+        <div class="row">
+          <div class="six columns">
+            <p><strong><u>Natural Language Processing (NLP):</u></strong> We use natural language processing pipeline to identify concepts and extract relationships between concepts in medical journals and articles to be imported into our knowledgebase. This can also be used to extract structured information from unstructured patient record such as discharge summaries for example.</p>
+            <p>Concepts are identified using concept unique identifier (CUI) from Unified Medical Language System (UMLS) meta-thesaurus. <strong>Relationships</strong> are extracted as <em>subject-predicate-object</em> triples. E.g. <code>(C0036421: Systemic Scleroderma)</code>-[causes]-><code>(C0014866: Esophageal Stenosis)</code>.</p>
+          </div>
+          <div class="six columns">
+            <img class="value-img" src="images/nlp-text.jpg">
+          </div>
+        </div>
+        <div class="row">
+          <div class="six columns">
+            <img class="value-img" src="images/graph-large.png" height="300">
+          </div>
+          <div class="six columns">
+            <p><strong><u>Knowledge Graph:</u></strong> A graph is the best way to model knowledge in medical domain and relationships between medical concepts. We use a graphical db to build this knowledge store and run graph compute algorithms to help answer interesting questions and build models for decision support.</p>
+            <p>We can further augment the knowlege graph by linking it to external resources such as ontology based semantic network or publicly available linked open data for example or even genomic data.</p>
+          </div>
+        </div>
+        <p><strong><u>Ontology and Semantic Interoperability:</u></strong> Adopting Unified Medical Language System (UMLS) meta-thesaurus to represent concepts in knowledge graph and result sets, we ensure interoperability of our inference engines and helps us integrate our decision support tools seamlessly with existing processes and workflows.</p>
+        <div class="row">
+          <div class="six columns">
+            <p><strong><u>Inference Engine:</u></strong> A probabilistic inference engine based on a growing knowledge base is used to provide decision support as opposed to a deterministic rule based inference engine. As a result, we have a CDSS that learns and grows with the underlying knowledgebase and patient data.</p>
+            <p>We use AI and machine learning techniques to automatically learn inference rules and optimize/train our engine for particular speciality/domain - e.g. oncology etc.</p>
+          </div>
+          <div class="six columns">
+            <img class="value-img" src="images/genius.png">
+          </div>
+        </div>
+    </div>
+    <div class="docs-section" id="team">
+      <h6 class="docs-header">Team</h6>
+      <div class="row">
+        <div class="six columns">
+          <img class="value-img" src="images/ravi-round.png" width="200">
+          <p class="team-header">RAVI BAJRACHARYA.</p>
+          <p>Ravi specializes in healthcare informatics and ontologies. He has over 10 years of experience in software design and development. He has worked in various industries including fin-tech and online marketing.</p>
+          <a href="https://www.linkedin.com/in/ravibajracharya/"><img class="value-img" src="images/linkedin_F.svg"></a>
+        </div>
+        <div class="six columns">
+          <img class="value-img" src="images/hemanta-round.png" width="200">
+          <p class="team-header">HEMANTA SHRESTHA.</p>
+          <p>Hemanta holds a Ph.D. in Economics from the University of Connecticut, USA. He has more than 14 years of experience in Corporate America, where he worked for companies like AT&T, Sprint, Nokia and Cox Communications.</p>
+          <a href="https://www.linkedin.com/in/hemantash/"><img class="value-img" src="images/linkedin_F.svg"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="docs-section" id="contact">
+      <h6 class="docs-header">Contact</h6>
+      <img src="images/email.png">
+
+    </div>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->

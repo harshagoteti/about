@@ -1,0 +1,86 @@
+a:hover,
+a:focus,
+h1 a:focus, h1 a:hover, h2 a:focus, h2 a:hover, h3 a:focus, h3 a:hover, h4 a:focus, h4 a:hover, h5 a:focus, h5 a:hover, h6 a:focus, h6 a:hover, .h1 a:focus, .h1 a:hover, .h2 a:focus, .h2 a:hover, .h3 a:focus, .h3 a:hover, .h4 a:focus, .h4 a:hover, .h5 a:focus, .h5 a:hover, .h6 a:focus, .h6 a:hover,
+html body .text-primary,
+.marked-list > li span:before,
+.index-list > li.index-list-counter:before,
+.features-block .icon,
+.video-section .icon,
+.img-links a,
+cite,
+.quote:before,
+.blog-post .post-text .post-data > * .icon,
+.post-meta a span,
+.comments-list .comment-btns a:hover,
+address a .icon,
+.pagination-line li a,
+.widget-categories .categories-list li:before,
+.k-nav.k-nav-fixed .k-nav-links li.active a,
+.k-nav.k-nav-fixed .k-nav-links li a:hover,
+.k-nav li.dropdown .dropdown-menu li a:hover {
+  color: #3B99D6;
+}
+
+#page-preloader,
+.bg-primary,
+.side-shapes:after,
+.side-shapes:before,
+.btn-primary:after,
+.contact-wrap .icon:after,
+.list-inline li .icon:after,
+.divider, .divider-white,
+.features-wrap .after-circle span,
+.pagination-line li a.current,
+.img-links:after,
+.page-404 span:after,
+.owl-prev:hover,
+.owl-next:hover,
+.owl-controls .owl-dot,
+.toTopButton,
+#style-switcher .toggle-switcher,
+#style-switcher .layout li.active,
+.progress-wrapper .progress .progress-bar,
+.accordion-title:after,
+.iso .button:after,
+.countdown-section:after {
+  background: #3B99D6;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.video-wrap,
+.form-control:focus,
+.pagination-line li a.current,
+.pagination-line li a:hover,
+.text-marked,
+.owl-prev,
+.owl-next {
+  border-color: #3B99D6;
+}
+
+.side-triangles:before,
+.features-left-col .features-block:nth-child(1):after,
+.features-right-col .features-block:nth-child(2):after,
+.features-left-col .features-block:nth-child(3):after,
+.pricing-box:before {
+  border-color: transparent #3B99D6 transparent transparent;
+}
+
+.side-triangles:after,
+.features-right-col .features-block:nth-child(1):after,
+.features-left-col .features-block:nth-child(2):after,
+.features-right-col .features-block:nth-child(3):after,
+.features-right-col .features-block:nth-child(3):after,
+.pricing-box:after {
+  border-color: transparent transparent transparent #3B99D6;
+}
+
+.icon-wrap:before {
+  border-color: transparent transparent #3B99D6 transparent;
+}
+
+.icon-wrap:after {
+  border-color: #3B99D6 transparent transparent transparent;
+}
+
+209.205.206.178
